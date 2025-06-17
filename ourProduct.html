@@ -1,0 +1,524 @@
+<html>
+    <head>
+        <title>
+            Fresh Fruits Vegatable Store With Home Delivery
+        </title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .header{
+            background-color: #ffffff;
+            padding: 10px 50px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .logo{
+            cursor: pointer;
+        }
+
+        .icons {
+            background-color: #ffffff;
+            color: rgb(128, 128, 128);
+            font-size: 35px;
+            margin-right: 10px;
+            margin-top: 20px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .icons2 {
+            background-color: #ffffff;
+            color: rgb(128, 128, 128);
+            font-size: 35px;
+            border-left: 1px solid #808088;
+            margin-top: 20px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .headeritems {
+            display: flex;
+
+        }
+        .firstimg{
+            margin-left: 55px;
+            margin-right: 50px;
+        }
+        .firstimginsertion{
+            background-image: url(https://starbazaarindia.com/cdn/shop/files/01_banner_b739411f-6a7f-428d-bc07-c0545d40e993_1300x.jpg?v=1614360992);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin-top: 30px;
+            height: 80%;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end; 
+            align-items: center;
+            position: relative;
+        }
+        .box1{
+             width: 15%;
+            padding: 50px 40px;
+            background-color: #ffffffe6;
+            margin-right: 160px;
+            margin-top: 100px;
+            margin-bottom: 90px;
+            
+        }
+        .imagetext{
+            margin-bottom: 20px;
+            font-size: 36px;
+            color: #7d5128;
+            text-align: center;
+            font-weight: bold;
+            text-transform:uppercase;
+        }
+        .paragraph{
+            font-style:arial;
+            color: #7d5128;
+
+            font-size: 18px;
+            padding: 10px 50px;
+            text-align: center;
+            margin: 0px 200px ;
+        }
+        .headline{
+            padding: 10px 50px;
+            display: flex;
+            justify-content:space-between;
+        }
+        .headline1{
+            color: #7d5128;
+            text-align: center;
+            font-weight: bold;
+
+        }
+        .headline2{ 
+            color: #7d5128;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 20px;
+            padding: 0px 10px;
+
+        }
+        .divider{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* margin-left: 90px; */    
+            padding: 10px 50px;
+
+
+        }
+        .side{
+           
+            border:1px solid #7d5128;
+            color: #7d5128;
+            /* width: 450px; */
+            /* margin: 0px 20px; */
+
+            
+
+        }
+        .middle{color: #7d5128;
+            font-size: 20px;
+            font-weight:800;
+            
+            /* margin-bottom: 20px; */
+
+
+        }
+        .iconsimg{
+            padding: 10px 50px; 
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .iconsimages{
+            /* display: flex; */
+            justify-content: space-between;
+            border: 1px solid #7d5128;
+            width: 27%;
+            padding: 30px;
+        }
+        .title {
+            font-size: 27px;
+            font-weight: 600;
+            color: #7d5128;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .secondimg{
+            margin-left: 55px;
+            margin-right: 50px;
+            margin-bottom: 0px;
+            /* height: 40%; */
+
+        }
+        .secondimginsertion{
+            background-image: url(https://starbazaarindia.com/cdn/shop/files/01_organically_banner_1300x.jpg?v=1614359074);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin-top: 30px;
+            height: 450px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end; 
+            align-items: center;
+            position: relative;
+
+        }
+        .thirdimg{
+            margin-left: 55px;
+            margin-right: 50px;
+            /* height: 70% */
+        }
+        .thirdimginsertion{
+            background-image: url(https://starbazaarindia.com/cdn/shop/files/02_veggieday_banner_1300x.jpg?v=1614359074);
+             background-repeat: no-repeat;
+            background-size: 100%;
+            /* margin-top: 30px; */
+            height: 450px; 
+            width: 100%;
+            display: flex;
+            justify-content: flex-end; 
+            align-items: center;
+            position: relative;
+
+        }
+        .fourthimg{
+            margin-left: 55px;
+            margin-right: 50px;
+            /* height: 50%; */
+        }
+        .fourthimginsertion{
+            background-image: url(https://starbazaarindia.com/cdn/shop/files/03_mango_man_banner_1300x.jpg?v=1614359074);
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            /* margin-top: 10px;  */
+            height: 450px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end; 
+            align-items: center;
+            position: relative;
+
+        }
+        .imagetext {
+            font-size: 40px;
+            font-weight: 400;
+            color: #7d5128;
+            text-align: center;
+        }
+
+        .box {
+            width: 25%;
+            padding: 20px;
+            background-color: #ffffffe6;
+            margin-right: 30px;
+            margin-bottom: 60px;
+        }
+
+        .knowmorebutton {
+            border: 2px solid #7d5128;
+            color: #7d5128;
+            font-weight: bold;
+            border-radius: 20px;
+            background-color: transparent;
+            padding: 10px 30px;
+            margin-top: 10px;
+            margin-left: 95px;
+            align-items: center;
+        }
+        .img6{
+            background-color:#d3d3d3 ;
+            margin:0px 50px 5px 55px;
+            padding: 50px;
+        }
+
+        .img6portion {
+            background-color: #eeeef3;
+            margin-left: 55px;
+            margin-right: 63px;
+            padding: 40px;
+            margin-top: 30px;
+        }
+
+        .manimage {
+            margin-left: 100px;
+        }
+
+        .img6innersection {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .footertext {
+            font-size: 13px;
+            color: #626262;
+            font-weight: 600;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .shopnowbutton {
+            padding: 10px;
+            border-radius: 19px;
+            border: 2px solid #6d6d6d;
+            background-color: transparent;
+            color: #6d6d6d;
+            font-size: 12px;
+            font-weight: 400;
+            margin-left: 50px;
+            cursor: pointer;
+        }
+
+        .footertext2 {
+            font-size: 15px;
+            font-weight: 900;
+            color: #565656;
+            margin-left: 15;
+            margin-bottom: 5;
+            cursor: pointer;
+
+        }
+
+        .footertext2:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        .footertext3 {
+            font-size: 20px;
+            font-weight: 900;
+            color: #565656;
+            margin-left: 15;
+        }
+
+        .extrafooter {
+            margin-top: 10px;
+        }
+
+        .footertext {
+            font-size: 20px;
+            font-weight: 400;
+            color: #565656;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .socialmedia {
+            display: flex;
+            justify-content: space-between;
+            gap: 3%;
+            margin-top: 10px;
+        }
+
+        .medialogo {
+            border: 1px solid #3b5998;
+            color: #ffffff;
+            background-color: #3b5998;
+            padding: 10px 15px;
+            border-radius: 26px;
+            cursor: pointer;
+
+        }
+
+        .medialogo2 {
+            border: 1px solid #0688e2;
+            color: #ffffff;
+            background-color: #0688e2;
+            padding: 12px 13px;
+            border-radius: 26px;
+            cursor: pointer;
+
+        }
+
+        .medialogo3 {
+            border: 1px solid #d51f74;
+            color: #ffffff;
+            background-color: #d51f74;
+            padding: 12px 13px;
+            border-radius: 26px;
+            cursor: pointer;
+
+        }
+
+        .medialogo4 {
+            border: 1px solid #565656;
+            color: #ffffff;
+            background-color: #565656;
+            padding: 12px 13px;
+            border-radius: 26px;
+            cursor: pointer;
+
+        }
+        .hrSection{
+            width: 30%;
+        }
+
+        
+        
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="headeritems">
+                <div class="icons"><i class="fa fa-bars"
+                        aria-hidden="true"></i></div>
+                <div class="logo">
+                    <img
+                        src="https://starbazaarindia.com/cdn/shop/files/STAR_Logo_275x70px_2.jpg?v=1716440384">
+
+                </div>
+            </div>
+
+            <div class="headeritems">
+                <div class="icons"> <i class="fa fa-map-marker"
+                        aria-hidden="true"></i></div>
+
+                <div class="icons2"> <i class="fa fa-phone-square"
+                        aria-hidden="true"></i></div>
+            </div>
+        </div>
+        <div class="firstimg">
+            <div class="firstimginsertion">
+                <div class="box1">
+                    <h1 class="imagetext">Harvested<br>
+                        Yesterday.<br>
+                        In store<br>
+                        Today.
+                    </h1>
+                </div>
+            </div>
+
+            <div class="paragraph">
+                Our love for fresh food is a passion shared by the country.
+                Which is
+                why we source over 80% of vegetables and 65% of fruits directly
+                from
+                over 800 farmers, just after a day of being harvested, and bring
+                it
+                on your plate. That is our level of commitment to serving you
+                only
+                the freshest and the highest quality of fruits and vegetables.
+                It’s
+                time we make eating fresh a habit
+            </div>
+        </div>
+        <div class="Divider">
+            <div class="hrSection"> <hr class="Side"> </div>
+            <div class="Middle"><span>DISCOVER OUR COMMITMENT TO
+                    FRESH</span></div>
+            <div class="hrSection"><hr class="Side"></div>
+        </div>
+        <div class="iconsimg">
+            <div class="iconsimages">
+                <img
+                    src="https://starbazaarindia.com/cdn/shop/files/1_farmers_vector-03_x327.jpg?v=1614360020"
+                    width="350px">
+                <div class="title">Direct Sourcing from Farmers</div>
+            </div>
+            <div class="iconsimages">
+                <img
+                    src="https://starbazaarindia.com/cdn/shop/files/2_quality_vector-03_x327.jpg?v=1614360020"
+                    width="350px">
+                <div class="title">Passionate about quality</div>
+            </div>
+            <div class="iconsimages">
+                <img
+                    src="https://starbazaarindia.com/cdn/shop/files/leave-icon_x327.jpg?v=1614360889"
+                    width="350px">
+                <div class="title">Best of Seasonal Produce</div>
+            </div>
+        </div>
+        <div class="secondimg">
+            <div class="secondimginsertion">
+                <div class="box">
+                    <div class="imagetext">A JOURNEY FROM THE FARM TO YOUR
+                        PLATE</div>
+                    <div><button class="knowmorebutton">KNOW MORE</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="thirdimg">
+            <div class="thirdimginsertion">
+                <div class="box">
+                    <div class="imagetext">NOT ONLY A WEDNESDAY. IT’S A FRESH
+                        WEDNESDAY</div>
+                    <div><button class="knowmorebutton">KNOW MORE</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="fourthimg">
+            <div class="fourthimginsertion">
+                <div class="box">
+                    <div class="imagetext">LOVE FROM OUR LOCAL FARMERS</div>
+                    <div><button class="knowmorebutton">KNOW MORE</button></div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+        <div class="Divider">
+            <div class="hrSection"> <hr class="Side"> </div>
+            <div class="Middle"><span>SHARE IT NOW</span></div>
+            <div class="hrSection"><hr class="Side"></div>
+        </div>
+        <div class="img6">
+            <div class="img6innersection">
+                <div class="manimage"><img
+                        src="https://cdn.shopify.com/s/files/1/0288/1735/8945/files/01.png?v=1592310881"
+                        width="74%"></div>
+                <div>
+                    <div><img
+                            src="https://cdn.shopify.com/s/files/1/0288/1735/8945/files/STARQUIK_LOGO_223px_x_78-01.jpg?v=1716276071"
+                            width="100%"></div>
+                    <div class="footertext">Shop online.<br>Download the app
+                        today.</div>
+                    <div class="extrafooter"><button class="shopnowbutton">SHOP
+                            NOW</button></div>
+
+                </div>
+                <div>
+                    <div class="footertext2">About</div>
+                    <div class="footertext2">Contact Us</div>
+                    <div class="footertext2">Store Locator</div>
+                </div>
+                <div>
+                    <div class="footertext2">Policies</div>
+                    <div class="footertext2">Terms & Conditions</div>
+                    <div class="footertext2">Exchange/Return Policy</div>
+                    <div class="footertext2">CSR</div>
+                    <div class="footertext2">Statutory Information</div>
+                </div>
+                <div>
+                    <div class="footertext2">Customer Care</div>
+                    <div class="footertext2">Starhelp@trent-tata.com</div>
+                    <div class="footertext2">+91 9029002233</div>
+                    <div class="footertext3">Join us on</div>
+                    <div class="socialmedia">
+                        <div class="medialogo"><i class="fa fa-facebook"
+                                aria-hidden="true"></i></div>
+                        <div class="medialogo2"><i class="fa fa-twitter"
+                                aria-hidden="true"></i></div>
+                        <div class="medialogo3"><i class="fa fa-instagram"
+                                aria-hidden="true"></i></div>
+                        <div class="medialogo4"><i
+                                class="fa fa-envelope-o"
+                                aria-hidden="true"></i></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="footertext">All rights reserved 2020 Trent
+                Hypermarket Pvt Ltd</div>
+        </div>
+
+    </body>
+</html>
