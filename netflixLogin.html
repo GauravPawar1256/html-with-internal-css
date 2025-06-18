@@ -9,26 +9,37 @@
                 margin: 0px;
             }
             .screenbackground{
-                background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/7968847f-3da9-44b3-8bbb-13a46579881f/web/IN-en-20250609-TRIFECTA-perspective_32b70b51-20d4-46db-8a1a-3d5428be5f0e_medium.jpg);
                 width: 100%;
                 height: 100%;
-
+                background-color: black;
+                
+            }
+            .screenbackground::before{
+                background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/7968847f-3da9-44b3-8bbb-13a46579881f/web/IN-en-20250609-TRIFECTA-perspective_32b70b51-20d4-46db-8a1a-3d5428be5f0e_medium.jpg);
+                content: "";
+                position: absolute;
+                inset: 0px;
+                background-position: center center;
+                background-size: cover;
+                opacity: 0.5;
             }
             .headerlogo{
                 margin: 0px 100px;
                 padding: 24px 48px;
+                position: relative;
             }
             .logo{
                 
-                width: 10%;
+                width: 12%;
             }
             .signinsection{
-                background: rgba(0, 7, 0, 0.7);
+                background: rgba(0, 7, 0, 0.8);
                 color: white;
                 border-radius: 5px;
                 width: 20%;
                 margin: auto;
                 padding: 50px 50px 100px 50px;
+                position: relative;
             }
             .signintext{
 
@@ -126,6 +137,41 @@
                 /* margin: 10px 0px; */
                 font-size: 14px;
             }
+            .footerbackground{
+                background-color: #161616;
+                color: rgba(255, 255, 255, 0.7);
+                padding: 80px 50px 80px 100px;
+            }
+            .footertext{
+                color:rgba(255, 255, 255, 0.7);
+                font-size: 18px;
+
+            }
+            .phonenumber{
+                cursor: pointer;
+            }
+            .footerlinksection{
+                display: flex;
+            }
+            .footerlinks{
+                margin: 20px 250px 15px 0px
+            }
+            .footerlinks2{
+                 margin: 20px 155px 15px 0px
+            }
+            .links{
+                color:rgba(255, 255, 255, 0.7);
+                cursor: pointer;
+            }
+            .selectbutton{
+                background-color: #161616;
+                color: rgb(255, 255, 255);
+                border: 1px solid rgba(255, 255, 255, 0.7);
+                border-radius: 5px;
+                margin: 10px 0px;
+                padding: 10px 20px;
+            }
+           
         </style>
     </head>
     <body class="body">
@@ -155,20 +201,57 @@
                             class="forgotlink1"> forgot password</a>
                     </div>
                     <div class="lastsection">
-                        <div class="line"><input type="checkbox" class="checkbox">Remamber Me</div>
+                        <div class="line"><input type="checkbox"
+                                class="checkbox">Remamber Me</div>
                         <div class="line2">New to Netflix? <a
-                                href="https://www.netflix.com/in/" class="line3">Sign up
+                                href="https://www.netflix.com/in/"
+                                class="line3">Sign up
                                 now.</a></div>
-                        <div class="line4">This page is protected by Google reCAPTCHA to
+                        <div class="line4">This page is protected by Google
+                            reCAPTCHA to
                             ensure you're not a bot.</div>
                         <div>
-                            <a href="https://www.netflix.com/in/login" class="line5">Learn
+                            <a href="https://www.netflix.com/in/login"
+                                class="line5">Learn
                                 More</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div></div>
+        </div>
+        <div class="footerbackground">
+            <div>
+                <div class="footertext">Questions? <span
+                        class="phonenumber">Call 000-800-919-1743
+                        (Toll-Free)</span></div>
+                <div class="footerlinksection">
+                    <div class="footerlinks"><a
+                            href="https://help.netflix.com/en/node/412"
+                            class="links">FAQ</a></div>
+                    <div class="footerlinks"><a
+                            href=https://help.netflix.com/en" class="links">Help
+                            center</a></div>
+                    <div class="footerlinks"><a
+                            href="https://help.netflix.com/legal/termsofuse"
+                            class="links"> Term and use</a></div>
+                    <div class="footerlinks"><a
+                            href="https://help.netflix.com/legal/privacy"
+                            class="links">Privacy</a></div>
+                </div>
+                <div class="footerlinksection">
+                    <div class="footerlinks2"><a href="#" class="links">Cookie
+                            Preferences</a></div>
+                    <div class="footerlinks"><a
+                            href="https://help.netflix.com/en/node/134094"
+                            class="links">Corporate Information</a></div>
+                </div>
+            </div>
+            <div>
+                <select class="selectbutton">
+                    <option class="option">English</option>
+                    <option>हिन्दी</option>
+                </select>
+            </div>
         </div>
     </body>
 </html>
