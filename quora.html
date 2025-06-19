@@ -9,21 +9,165 @@
             }
             .backgroundsection{
                 background-image:url(https://qsf.fs.quoracdn.net/-4-ans_frontend_assets.images.home_page_bg_desktop.png-26-4770753d59b970e1.png);
+                /* background-repeat: no-repeat;  */
                 width: 100%;
                 height: 100%;
-                padding: 70px;
+                padding: 70px 0px 0px;
             }
             .Signinsection{
+
                 background-color: white;
-                width: 50%;
+                width: 45%;
+                height: 70%;
                 margin: auto;
             }
             .logo{
                 width: 30%;
+                margin-top: 30px;
+                margin-bottom: 10px;
             }
             .headerlogo{
                 display: flex;
                 justify-content: center;
+            }
+            .titleline{
+                font-size: 18px;
+                font-weight: 800;
+                text-align: center;
+            }
+            .twopartsection{
+                display: flex;
+                margin: 40px 0px;
+            }
+            .leftsidesection{
+                padding: 0px 30px;
+                width: 50%;
+                border: 1px solid #dee0e1;
+                border-left: none;
+                border-top: none;
+                border-bottom: none;
+            }
+            .rightsidesection{
+                padding: 0px 30px 30px 30px;
+                width: 50%;
+            }
+            .paragraph{
+                font-size: 14px;
+                color: #939598;
+                width: 95%;
+            }
+            .googlesection{
+                display: flex;
+                align-items: center;
+                border: 1px solid #939598;
+                border-radius: 4px;
+                margin: 20px 0px 0px 0px;
+                cursor: pointer;
+                height: 40px;
+
+            }
+            .googlesection:hover{
+                background-color: #dee0e1;
+                color:#282829;
+            }
+            .googlelogo{
+                width: 50px;
+
+            }
+            .googletext{
+                font-size: 18px;
+                fon
+                color: #282829;
+            }
+            .facebooklogo{
+                width: 35px;
+                padding: 5px;
+            }
+            .signupemail{
+                font-size: 14px;
+                color: #636466;
+                margin: 10px 50px 10px 0px;
+                text-align: center;
+                width: 100%;
+                padding: 5px;
+                cursor: pointer;
+                background: none;
+                border: none;
+            }
+            .signupemail:hover{
+                background-color:#ebedf0;
+                color: #636466;
+                border-radius: 10px;
+            }
+            .loginname{
+                color: #282829;
+                font-size: 16px;
+                border-bottom: 1px solid #939598;
+                padding: 0px 0px 10px;
+                
+
+            }
+            .inputsection{
+                margin: 20px 0px;
+            }
+            .inputbox{
+                width: 100%;
+                height: 20%;
+                border: 1px solid #dee0e1;
+                border-radius: 5px;
+            }
+            .lables{
+                font-size: 14px;
+                font-weight: 800;
+            }
+            .forgotpassword{
+                display: flex;
+                justify-content: space-between;
+            }
+            .forgotlinks{
+                color: #939598;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            .forgotlinks:hover{
+                text-decoration: underline;
+            }
+            .loginbutton{
+                background-color: #1a5aff;
+                color: white;
+                border: none;
+                border-radius: 20px;
+                padding: 5px 10px;
+            }
+            .languagelinks{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #dee0e1;
+                padding: 10px 0px;
+            }
+            .linkstext{
+                color: rgb(25, 95, 170);
+                font-size: 14px;
+            }
+            .footerlinks{
+                display: flex;
+                justify-content: center;
+                padding: 20px;
+            }
+            .footerlinks2{
+                color: #939598;
+                font-size: 14px;
+                margin: 2px;
+                text-decoration: none;
+            }
+            .dot{
+                font-size: 10px;
+                padding-top: 6px;
+                color: #939598;
+            }
+            .paragraphlinks{
+                text-decoration: none;
             }
 
         </style>
@@ -35,52 +179,75 @@
                     <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Quora_logo_2015.svg/768px-Quora_logo_2015.svg.png" class="logo">
                 </div>
-                <div>
+                <div class="titleline">
                     A place to share knowledge and better understand the world
                 </div>
-                <div>
-                    <div>
-                        <div>
+                <div class="twopartsection">
+                    <div class="leftsidesection">
+                        <div class="paragraph">
                             By continuing you indicate that you agree to Quora’s
-                            Terms of Service and Privacy Policy.
+                            <a href="https://www.quora.com/about/tos" class="paragraphlinks"> Terms of Service</a> and <a href="https://www.quora.com/about/privacy" class="paragraphlinks"> Privacy Policy</a>.
                         </div>
-                        <div>
+                        <div class="googlesection">
                             <div>
-                                <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png">
+                                <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" class="googlelogo">
                             </div>
-                            <div>
+                            <div class="googletext">
                                 Continue with Google
                             </div>
                         </div>
-                        <div>
+                        <div class="googlesection">
                             <div>
-                                <img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png">
+                                <img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png"class="facebooklogo">
                             </div>
-                            <div>
+                            <div class="googletext">
                                 Continue with Facebook
                             </div>
                         </div>
-                        <div> Sign up with Email</div>
+                        <button class="signupemail"> Sign up with Email</button>
                     </div>
-                    <div>
-                        <div>
+                    <div class="rightsidesection">
+                        <div class="loginname">
                             Login
                         </div>
-                        <div>
-                            <lable>Email</lable>
-                            <input type="email" placeholder="Your Email">
+                        <div class="inputsection">
+                            <lable class="lables">Email</lable><br>
+                            <input type="email" placeholder="Your Email" class="inputbox">
                         </div>
-                        <div>
-                            <lable>Password</lable>
-                            <input type="password" placeholder="password">
+                        <div  class="inputsection">
+                            <lable class="lables">Password</lable><br>
+                            <input type="password" placeholder="password" class="inputbox">
                         </div>
-                        <div>
-                            <div><a href="#">Forgot Password</a></div>
+                        <div class="forgotpassword">
+                            <div><a href="#" class="forgotlinks">Forgot Password</a></div>
                             <div>
-                                <button>Login</button>
+                                <button class="loginbutton">Login</button>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="languagelinks">
+                    <a href="#" class="linkstext">हिन्दी</a> >
+                    <a href="#" class="linkstext">मराठी</a> >
+                </div>
+                <div class="footerlinks">
+                    <a href="" class="footerlinks2">About</a>
+                    <span class="dot">•</span>
+                    <a href="" class="footerlinks2">Career</a>
+                    <span class="dot">•</span>
+                    <a href="" class="footerlinks2">Privacy</a>
+                    <span class="dot">•</span>
+                    <a href="" class="footerlinks2">Terms</a>
+                    <span class="dot">•</span>
+                    <a href="" class="footerlinks2">Contact</a>
+                    <span class="dot">•</span>
+                    <a href="" class="footerlinks2">Language</a>
+                    <span class="dot">•</span>
+                    <a href="" class="footerlinks2">Your Ad Choices</a>
+                    <span class="dot">•</span>
+                    <a href="" class="footerlinks2">Press</a>
+                    <span class="dot">•</span>
+                    <span class="footerlinks2">© Quora, Inc. 2025</span>
                 </div>
              
             </div>
